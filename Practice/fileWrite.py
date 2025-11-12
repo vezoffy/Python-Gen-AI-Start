@@ -1,0 +1,6 @@
+f = open("yy.txt", "r+")
+print(f.read())
+f.write("NoOne")
+f.seek(0, 0)
+print(f.read())
+f.close()
