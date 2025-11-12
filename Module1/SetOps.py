@@ -1,0 +1,16 @@
+A = set()
+B = set()
+print("Enter elements for set A:")
+for i in range(5):
+    A.add(int(input()))
+print("Enter elements for set B:")
+for i in range(5):
+    B.add(int(input()))
+print("Set A:", A)
+print("Set B:", B)
+print("Union of A and B:", A.union(B))
+print("Intersection of A and B:", A.intersection(B))
+print("Difference of A and B:", A.difference(B))
+print("Symmetric difference of A and B:", A.symmetric_difference(B))
+print("Is A a subset of B?", A.issubset(B))
+print("Is A a superset of B?", A.issuperset(B))
